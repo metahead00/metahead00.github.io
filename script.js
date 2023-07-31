@@ -99,3 +99,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.addEventListener('keydown', movePlayer);
 });
+
+const button = document.querySelector('.my-button');
+
+button.addEventListener('click', () => {
+  alert('Useless Button Clicked!');
+});
+
+const button2 = document.querySelector('.my-button2');
+
+button2.addEventListener('click', function () {
+  if (audioPlayer.paused) {
+    audioPlayer.play();
+  } else {
+    audioPlayer.pause();
+  }
+});
