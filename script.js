@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (checkCollision(player, goal)) {
-            alert('CONGRATS!');
+            alert('Hi Mehran!');
         }
     };
 
