@@ -1,4 +1,4 @@
-# metahead00.github.io
+# https://metahead00.github.io/maze.html
 
 Font style, size and color changes for each letter of the title.
 When clicked to useless button, an alert occurs but nothing else changes.
